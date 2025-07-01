@@ -1,4 +1,4 @@
-@import './base.css';
+@import "./base.css";
 
 #app {
   max-width: 1280px;
@@ -33,3 +33,35 @@ a,
     padding: 0 2rem;
   }
 }
+
+/* Fix lỗi không hiển thị được các icon ở phần 4 */
+.fa-solid.fa-search::before {
+  content: "\f002";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-rotate-right::before {
+  content: "\f2f9";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-trash::before {
+  content: "\f1f8";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-check::before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-xmark::before {
+  content: "\f00d";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+/* End Fix lỗi không hiển thị được các icon ở phần 4 */
